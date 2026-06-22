@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Wallpapers — Techzx AI Hub</title>
+<meta name="description" content="Download 20+ free high-quality mobile wallpapers — Hanuman, Anime, Nature, Cars, Black Aesthetic, and Quote wallpapers.">
+<meta name="keywords" content="mobile wallpapers, Hanuman wallpaper, anime wallpaper, nature wallpaper, aesthetic wallpaper, quote wallpaper">
+<link rel="canonical" href="https://techzxaihub.example.com/wallpapers.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wallpapers — Techzx AI Hub">
+<meta property="og:description" content="Download 20+ free high-quality mobile wallpapers across multiple categories.">
+<meta property="og:url" content="https://techzxaihub.example.com/wallpapers.html">
+<meta property="og:image" content="assets/images/og-cover.jpg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#6C5CE7">
+<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">⚡ Techzx<span class="dot">AI</span> Hub</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="ai-tools.html">AI Tools</a>
+      <a href="prompts.html">Prompts</a>
+      <a href="wallpapers.html" class="active">Wallpapers</a>
+      <a href="resources.html">Student Hub</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="btn-icon search-trigger" aria-label="Search">🔍</button>
+      <button class="btn-icon theme-toggle" aria-label="Toggle theme">🌙</button>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="ai-tools.html">AI Tools</a>
+    <a href="prompts.html">Prompts</a>
+    <a href="wallpapers.html" class="active">Wallpapers</a>
+    <a href="resources.html">Student Hub</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+
+<div class="search-overlay">
+  <div class="search-box">
+    <input type="text" placeholder="Search tools, prompts, wallpapers..." aria-label="Search everything">
+    <div class="search-results"></div>
+    <button class="btn btn-outline btn-block search-close mt-1">Close</button>
+  </div>
+</div>
+<section class="page-hero">
+  <div class="container">
+    <h1>Mobile <span class="gradient-text">Wallpapers</span></h1>
+    <p class="lead">Free high-quality wallpapers for your phone — Hanuman, Anime, Nature, Cars, Black Aesthetic, and Quotes.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:1rem;">
+  <div class="container">
+    <div class="page-search">
+      <span>🔍</span>
+      <input type="text" id="wallSearchInput" placeholder="Search wallpapers..." aria-label="Search wallpapers">
+    </div>
+    <div class="filter-bar" id="wallFilterBar"></div>
+    <div class="masonry" id="wallpaperGrid"></div>
+  </div>
+</section>
+
+<!-- Wallpaper Preview Modal -->
+<div class="modal-overlay">
+  <div class="modal-box">
+    <button class="modal-close" aria-label="Close">✕</button>
+    <img class="modal-img" src="" alt="Wallpaper preview">
+    <div class="modal-body">
+      <span class="tool-category-tag modal-cat"></span>
+      <h3 class="modal-title" style="margin-top:0.5rem;"></h3>
+      <div class="modal-actions">
+        <a class="btn btn-primary btn-block modal-download" href="#" download target="_blank" rel="noopener noreferrer">⬇️ Download</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">⚡ Techzx<span class="dot">AI</span> Hub</a>
+        <p>Your one-stop hub for AI tools, prompts, wallpapers, and student resources.</p>
+        <div class="social-links">
+          <a class="btn-icon" href="#" aria-label="Instagram">📷</a>
+          <a class="btn-icon" href="#" aria-label="Twitter">🐦</a>
+          <a class="btn-icon" href="#" aria-label="YouTube">▶️</a>
+          <a class="btn-icon" href="#" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="ai-tools.html">AI Tools</a></li>
+          <li><a href="prompts.html">Prompt Library</a></li>
+          <li><a href="wallpapers.html" class="active">Wallpapers</a></li>
+          <li><a href="resources.html">Student Resources</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Newsletter</h4>
+        <form class="newsletter-form" style="flex-direction:column;">
+          <input type="email" name="email" placeholder="Your email" required aria-label="Email address" style="background:var(--bg);color:var(--text-primary);border:1.5px solid var(--border);">
+          <button type="submit" class="btn btn-primary btn-sm" style="background:var(--grad-primary);color:#fff;">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; <span id="year"></span> Techzx AI Hub. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

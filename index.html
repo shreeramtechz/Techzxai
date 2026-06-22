@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Techzx AI Hub — AI Tools, Prompts, Wallpapers & Student Resources</title>
+<meta name="description" content="Discover the best AI tools, copy-ready prompts, free mobile wallpapers, and student study resources — all in one place at Techzx AI Hub.">
+<meta name="keywords" content="AI tools directory, prompt library, AI wallpapers, student resources, free AI tools, JEE NEET study tools">
+<meta name="author" content="Techzx AI Hub">
+<link rel="canonical" href="https://techzxaihub.example.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Techzx AI Hub — AI Tools, Prompts, Wallpapers & Student Resources">
+<meta property="og:description" content="Discover the best AI tools, copy-ready prompts, free mobile wallpapers, and student study resources — all in one place.">
+<meta property="og:url" content="https://techzxaihub.example.com/">
+<meta property="og:image" content="assets/images/og-cover.jpg">
+<meta property="og:site_name" content="Techzx AI Hub">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Techzx AI Hub — AI Tools, Prompts, Wallpapers & Student Resources">
+<meta name="twitter:description" content="Discover the best AI tools, copy-ready prompts, free mobile wallpapers, and student study resources.">
+<meta name="twitter:image" content="assets/images/og-cover.jpg">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#6C5CE7">
+<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+
+<!-- Fonts & Styles -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Techzx AI Hub",
+  "url": "https://techzxaihub.example.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://techzxaihub.example.com/ai-tools.html?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">⚡ Techzx<span class="dot">AI</span> Hub</a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="ai-tools.html">AI Tools</a>
+      <a href="prompts.html">Prompts</a>
+      <a href="wallpapers.html">Wallpapers</a>
+      <a href="resources.html">Student Hub</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="btn-icon search-trigger" aria-label="Search">🔍</button>
+      <button class="btn-icon theme-toggle" aria-label="Toggle theme">🌙</button>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="ai-tools.html">AI Tools</a>
+    <a href="prompts.html">Prompts</a>
+    <a href="wallpapers.html">Wallpapers</a>
+    <a href="resources.html">Student Hub</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+
+<!-- ============ SEARCH OVERLAY ============ -->
+<div class="search-overlay">
+  <div class="search-box">
+    <input type="text" placeholder="Search tools, prompts, wallpapers..." aria-label="Search everything">
+    <div class="search-results"></div>
+    <button class="btn btn-outline btn-block search-close mt-1">Close</button>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container">
+    <h1>Your One-Stop <span class="gradient-text">AI Hub</span><br>for Tools, Prompts & More</h1>
+    <p class="lead">Discover the best AI tools, ready-to-use prompts, stunning wallpapers, and student resources — all in one place.</p>
+    <form class="hero-search" id="heroSearchForm">
+      <input type="text" id="heroSearchInput" placeholder="Search for AI tools, prompts, wallpapers..." aria-label="Search">
+      <button type="submit">Search</button>
+    </form>
+    <div class="hero-stats">
+      <div class="stat"><strong data-counter="20">0</strong><span>AI Tools</span></div>
+      <div class="stat"><strong data-counter="20">0</strong><span>Prompts</span></div>
+      <div class="stat"><strong data-counter="20">0</strong><span>Wallpapers</span></div>
+      <div class="stat"><strong data-counter="12">0</strong><span>Categories</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED AI TOOLS ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Featured <span class="gradient-text">AI Tools</span></h2>
+      <p>Hand-picked AI tools across writing, image, video, coding, study, and productivity.</p>
+    </div>
+    <div class="scroll-row" id="featuredToolsRow"></div>
+    <div class="text-center mt-1">
+      <a href="ai-tools.html" class="see-all">Explore all AI tools →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRENDING PROMPTS ============ -->
+<section class="section" style="background:var(--bg-elevated);">
+  <div class="container">
+    <div class="section-head">
+      <h2>Trending <span class="gradient-text">Prompts</span></h2>
+      <p>Copy-ready prompts for study, business, coding, content, and more.</p>
+    </div>
+    <div class="scroll-row" id="trendingPromptsRow"></div>
+    <div class="text-center mt-1">
+      <a href="prompts.html" class="see-all">Browse the prompt library →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ POPULAR WALLPAPERS ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Popular <span class="gradient-text">Wallpapers</span></h2>
+      <p>Free high-quality mobile wallpapers — Hanuman, Anime, Nature, Cars, and more.</p>
+    </div>
+    <div class="scroll-row" id="popularWallsRow"></div>
+    <div class="text-center mt-1">
+      <a href="wallpapers.html" class="see-all">See all wallpapers →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LATEST ARTICLES ============ -->
+<section class="section" style="background:var(--bg-elevated);">
+  <div class="container">
+    <div class="section-head">
+      <h2>Latest <span class="gradient-text">Articles</span></h2>
+      <p>Guides and tips to help you get more out of AI.</p>
+    </div>
+    <div class="grid" id="articlesGrid"></div>
+  </div>
+</section>
+
+<!-- ============ NEWSLETTER ============ -->
+<section class="section">
+  <div class="newsletter">
+    <h2>Stay in the loop</h2>
+    <p>Get new AI tools, prompts, and wallpapers delivered to your inbox every week.</p>
+    <form class="newsletter-form">
+      <input type="email" name="email" placeholder="Enter your email" required aria-label="Email address">
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">⚡ Techzx<span class="dot">AI</span> Hub</a>
+        <p>Your one-stop hub for AI tools, prompts, wallpapers, and student resources — built to help you do more with AI.</p>
+        <div class="social-links">
+          <a class="btn-icon" href="#" aria-label="Instagram">📷</a>
+          <a class="btn-icon" href="#" aria-label="Twitter">🐦</a>
+          <a class="btn-icon" href="#" aria-label="YouTube">▶️</a>
+          <a class="btn-icon" href="#" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="ai-tools.html">AI Tools</a></li>
+          <li><a href="prompts.html">Prompt Library</a></li>
+          <li><a href="wallpapers.html">Wallpapers</a></li>
+          <li><a href="resources.html">Student Resources</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Newsletter</h4>
+        <form class="newsletter-form" style="flex-direction:column;">
+          <input type="email" name="email" placeholder="Your email" required aria-label="Email address" style="background:var(--bg);color:var(--text-primary);border:1.5px solid var(--border);">
+          <button type="submit" class="btn btn-primary btn-sm" style="background:var(--grad-primary);color:#fff;">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Techzx AI Hub. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

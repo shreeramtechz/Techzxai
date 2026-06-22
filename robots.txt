@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://techzxaihub.example.com/sitemap.xml
