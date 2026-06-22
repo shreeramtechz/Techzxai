@@ -397,7 +397,7 @@ const prompts = [
    seeded queries so each wallpaper looks distinct. Replace `image`
    with your own hosted images before going live. */
 const wallpapers = [
-  { id: "wall-1", title: "Hanuman Devotion", category: "Hanuman", image: "https://picsum.photos/seed/hanuman1/500/800", likes: 320 },
+  { id: "wall-1", title: "Hanuman Devotion", category: "Hanuman", image: "https://pin.it/7k5rEsNAQ", likes: 320 },
   { id: "wall-2", title: "Hanuman Strength", category: "Hanuman", image: "https://picsum.photos/seed/hanuman2/500/700", likes: 287 },
   { id: "wall-3", title: "Bajrangbali Glow", category: "Hanuman", image: "https://picsum.photos/seed/hanuman3/500/900", likes: 410 },
   { id: "wall-4", title: "Anime Sunset Hero", category: "Anime", image: "https://picsum.photos/seed/anime1/500/750", likes: 502 },
