@@ -4,7 +4,7 @@
    No backend needed — everything is plain JS objects/arrays.
    ========================================================================== */
 
-/* ---------------- AI TOOLS (20) ---------------- */
+/* ---------------- AI TOOLS (40) ---------------- */
 const aiTools = [
   {
     id: "tool-1",
