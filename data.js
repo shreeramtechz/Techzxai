@@ -225,8 +225,232 @@ const aiTools = [
     website: "https://otter.ai",
     rating: 4.4,
     image: "🎙️"
+  },
+
+
+  {
+    id: "tool-21",
+    name: "Mindgrasp",
+    category: "Study AI",
+    description: "AI study assistant that creates notes, summaries, flashcards, and quizzes from PDFs, videos, and lectures.",
+    features: ["PDF summaries", "Flashcards", "Quiz generation", "Video summarization"],
+    pricing: "Free Trial / From $9.99 per month",
+    website: "https://mindgrasp.ai",
+    rating: 4.7,
+    image: "🧠"
+  },
+  {
+    id: "tool-22",
+    name: "Recall",
+    category: "Note Taking AI",
+    description: "AI-powered knowledge management tool that summarizes articles and creates a personal knowledge graph.",
+    features: ["Article summaries", "Knowledge graph", "Smart notes", "AI search"],
+    pricing: "Free Trial / From $10 per month",
+    website: "https://recall.wiki",
+    rating: 4.6,
+    image: "📚"
+  },
+  {
+    id: "tool-23",
+    name: "Albus",
+    category: "Research AI",
+    description: "AI workspace that helps students research topics and gather information quickly.",
+    features: ["Research assistant", "AI search", "Document organization", "Summaries"],
+    pricing: "Free / Paid plans available",
+    website: "https://springworks.in/albus",
+    rating: 4.5,
+    image: "🔍"
+  },
+  {
+    id: "tool-24",
+    name: "Socratic",
+    category: "Homework AI",
+    description: "Google's AI app that helps students solve homework questions and understand concepts.",
+    features: ["Homework help", "Step-by-step solutions", "Image scanning", "Concept explanations"],
+    pricing: "Free",
+    website: "https://socratic.org",
+    rating: 4.8,
+    image: "🎓"
+  },
+  {
+    id: "tool-25",
+    name: "Knowt",
+    category: "Flashcard AI",
+    description: "AI study platform that automatically creates flashcards and practice tests.",
+    features: ["Flashcards", "Practice tests", "Note conversion", "Study mode"],
+    pricing: "Free / Premium plans",
+    website: "https://knowt.com",
+    rating: 4.7,
+    image: "📝"
+  },
+  {
+    id: "tool-26",
+    name: "Gizmo",
+    category: "Memory AI",
+    description: "AI flashcard app that uses spaced repetition to help students remember concepts longer.",
+    features: ["Spaced repetition", "Flashcards", "Progress tracking", "Smart reminders"],
+    pricing: "Free / Premium plans",
+    website: "https://gizmo.ai",
+    rating: 4.6,
+    image: "🧩"
+  },
+  {
+    id: "tool-27",
+    name: "Explainpaper",
+    category: "Research AI",
+    description: "AI tool that simplifies difficult research papers and explains complex concepts.",
+    features: ["Research paper explanation", "Simple summaries", "Concept breakdown", "AI chat"],
+    pricing: "Free / Paid plans",
+    website: "https://explainpaper.com",
+    rating: 4.8,
+    image: "📄"
+  },
+  {
+    id: "tool-28",
+    name: "Scholarcy",
+    category: "Research AI",
+    description: "AI tool that summarizes long articles and research papers into key points.",
+    features: ["Paper summaries", "Reference extraction", "Key insights", "Flashcards"],
+    pricing: "Free Trial / From $9.99 per month",
+    website: "https://scholarcy.com",
+    rating: 4.5,
+    image: "📑"
+  },
+  {
+    id: "tool-29",
+    name: "Humata",
+    category: "PDF AI",
+    description: "Chat with PDFs and get instant answers from books, notes, and documents.",
+    features: ["PDF chat", "Document summaries", "Question answering", "Fast search"],
+    pricing: "Free / From $14.99 per month",
+    website: "https://humata.ai",
+    rating: 4.7,
+    image: "📘"
+  },
+  {
+    id: "tool-30",
+    name: "Caktus AI",
+    category: "Education AI",
+    description: "AI learning platform for essays, coding, math, and educational assistance.",
+    features: ["Essay writing", "Math solver", "Coding help", "Study assistant"],
+    pricing: "From $9.99 per month",
+    website: "https://caktus.ai",
+    rating: 4.4,
+    image: "🌵"
+  },
+  {
+    id: "tool-31",
+    name: "Mapify",
+    category: "Mind Map AI",
+    description: "Turns notes and PDFs into visual mind maps for easier understanding.",
+    features: ["Mind maps", "PDF conversion", "Visual learning", "Topic organization"],
+    pricing: "Free / Premium plans",
+    website: "https://mapify.so",
+    rating: 4.6,
+    image: "🗺️"
+  },
+  {
+    id: "tool-32",
+    name: "Study Fetch",
+    category: "Study AI",
+    description: "AI platform that creates notes, quizzes, flashcards, and tutoring sessions.",
+    features: ["AI tutor", "Quiz generation", "Flashcards", "Notes"],
+    pricing: "Free / Paid plans",
+    website: "https://studyfetch.com",
+    rating: 4.7,
+    image: "📖"
+  },
+  {
+    id: "tool-33",
+    name: "Answer AI",
+    category: "Homework AI",
+    description: "AI app that solves academic questions using photos and text input.",
+    features: ["Photo solving", "Step-by-step answers", "Multiple subjects", "Instant help"],
+    pricing: "Free / Premium plans",
+    website: "https://answerai.pro",
+    rating: 4.5,
+    image: "💡"
+  },
+  {
+    id: "tool-34",
+    name: "Julius AI",
+    category: "Data AI",
+    description: "AI tool for analyzing data, spreadsheets, and solving statistics problems.",
+    features: ["Data analysis", "Excel support", "Charts", "Statistics help"],
+    pricing: "Free / From $20 per month",
+    website: "https://julius.ai",
+    rating: 4.6,
+    image: "📊"
+  },
+  {
+    id: "tool-35",
+    name: "Elicit",
+    category: "Research AI",
+    description: "AI research assistant that finds papers and summarizes scientific literature.",
+    features: ["Paper search", "Research summaries", "Evidence extraction", "Literature review"],
+    pricing: "Free / Paid plans",
+    website: "https://elicit.com",
+    rating: 4.8,
+    image: "🔬"
+  },
+  {
+    id: "tool-36",
+    name: "Question AI",
+    category: "Homework AI",
+    description: "AI homework helper that provides solutions and explanations across subjects.",
+    features: ["Question solving", "Math support", "Science help", "Image upload"],
+    pricing: "Free / Premium plans",
+    website: "https://questionai.com",
+    rating: 4.4,
+    image: "❓"
+  },
+  {
+    id: "tool-37",
+    name: "Wisdolia",
+    category: "Flashcard AI",
+    description: "Creates AI flashcards from PDFs, videos, and articles automatically.",
+    features: ["Auto flashcards", "PDF support", "Spaced repetition", "Learning analytics"],
+    pricing: "Free / Paid plans",
+    website: "https://wisdolia.com",
+    rating: 4.6,
+    image: "🃏"
+  },
+  {
+    id: "tool-38",
+    name: "Glasp",
+    category: "Learning AI",
+    description: "AI social highlighting tool that saves and summarizes important information online.",
+    features: ["Web highlights", "AI summaries", "Knowledge sharing", "Note organization"],
+    pricing: "Free",
+    website: "https://glasp.co",
+    rating: 4.7,
+    image: "✨"
+  },
+  {
+    id: "tool-39",
+    name: "Unriddle",
+    category: "Research AI",
+    description: "AI reading assistant that helps students understand and organize research materials.",
+    features: ["Document chat", "Summaries", "Research organization", "AI search"],
+    pricing: "Free Trial / From $16 per month",
+    website: "https://unriddle.ai",
+    rating: 4.7,
+    image: "🧩"
+  },
+  {
+    id: "tool-40",
+    name: "PDF.ai",
+    category: "PDF AI",
+    description: "Chat with textbooks, notes, and study materials using AI.",
+    features: ["PDF chat", "Question answering", "Summaries", "Document search"],
+    pricing: "Free / Paid plans",
+    website: "https://pdf.ai",
+    rating: 4.5,
+    image: "📕"
   }
+
 ];
+
 
 /* ---------------- PROMPT LIBRARY (20) ---------------- */
 const prompts = [
