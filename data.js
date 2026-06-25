@@ -833,6 +833,26 @@ const toolCategories = ["All", "Writing AI", "Image AI", "Video AI", "Coding AI"
 const promptCategories = ["All", "Study", "Business", "Social Media", "Coding", "Productivity", "Content Creation"];
 const wallpaperCategories = ["All", "Hanuman", "Anime", "Nature", "Cars", "Black Aesthetic", "Quotes"];
 
+const toolCategories = [
+  "All",
+  "Writing AI",
+  "Image AI",
+  "Video AI",
+  "Coding AI",
+  "Study AI",
+  "Productivity AI",
+  "Homework AI",
+  "Research AI",
+  "PDF AI",
+  "Flashcard AI",
+  "Mind Map AI",
+  "Learning AI",
+  "Data AI",
+  "Education AI",
+  "Memory AI",
+  "Note Taking AI"
+];
+
 /* ---------------- LATEST ARTICLES (for homepage section) ---------------- */
 const articles = [
   {
