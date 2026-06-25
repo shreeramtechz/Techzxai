@@ -227,7 +227,6 @@ const aiTools = [
     image: "🎙️"
   },
 
-
   {
     id: "tool-21",
     name: "Mindgrasp",
@@ -447,7 +446,7 @@ const aiTools = [
     website: "https://pdf.ai",
     rating: 4.5,
     image: "📕"
-  }
+  },
 
 ];
 
@@ -613,7 +612,169 @@ const prompts = [
     description: "Draft key talking points for each pitch deck slide.",
     text: "Create bullet points for a 10-slide pitch deck for [startup idea], covering problem, solution, market size, business model, traction, and team slides.",
     likes: 141
-  }
+  },
+{
+  id: "prompt-21",
+  title: "Explain Like I'm 10",
+  category: "Learning",
+  description: "Simplify difficult concepts into easy language.",
+  text: "Explain [topic] as if I am a 10-year-old student. Use simple words, examples, and analogies.",
+  likes: 178
+},
+{
+  id: "prompt-22",
+  title: "Chapter Summary Generator",
+  category: "Study",
+  description: "Create concise summaries of long chapters.",
+  text: "Summarize this chapter on [topic] into key points, important formulas, and a short revision sheet.",
+  likes: 165
+},
+{
+  id: "prompt-23",
+  title: "Visual Learning Guide",
+  category: "Learning",
+  description: "Understand concepts through diagrams and flowcharts.",
+  text: "Explain [topic] using flowcharts, diagrams, and visual examples that are easy to remember.",
+  likes: 152
+},
+{
+  id: "prompt-24",
+  title: "Real-Life Examples Teacher",
+  category: "Education",
+  description: "Connect difficult topics with everyday life.",
+  text: "Teach me [concept] using real-life examples and practical applications.",
+  likes: 184
+},
+{
+  id: "prompt-25",
+  title: "5-Minute Revision Notes",
+  category: "Study",
+  description: "Generate quick revision notes before exams.",
+  text: "Create 5-minute revision notes for [topic] including formulas, definitions, and important facts.",
+  likes: 194
+},
+{
+  id: "prompt-26",
+  title: "Topic Breakdown",
+  category: "Learning",
+  description: "Break complex topics into smaller parts.",
+  text: "Break down [topic] into simple subtopics and explain them step-by-step.",
+  likes: 172
+},
+{
+  id: "prompt-27",
+  title: "Memory Tricks Generator",
+  category: "Study",
+  description: "Create mnemonics and memory tricks.",
+  text: "Generate mnemonics and memory tricks to remember important concepts from [topic].",
+  likes: 167
+},
+{
+  id: "prompt-28",
+  title: "One-Page Notes Maker",
+  category: "Study",
+  description: "Create a complete one-page summary.",
+  text: "Create a one-page cheat sheet for [topic] with key points and important formulas.",
+  likes: 181
+},
+{
+  id: "prompt-29",
+  title: "Concept Comparison",
+  category: "Education",
+  description: "Understand differences between similar concepts.",
+  text: "Compare [concept 1] and [concept 2] in an easy table with examples and key differences.",
+  likes: 156
+},
+{
+  id: "prompt-30",
+  title: "Doubt Solver",
+  category: "Learning",
+  description: "Get simple answers to confusing concepts.",
+  text: "I am confused about [topic]. Explain it in the simplest possible way and clear my misconceptions.",
+  likes: 201
+},
+{
+  id: "prompt-31",
+  title: "Teach Me Step by Step",
+  category: "Education",
+  description: "Learn any topic from beginner level.",
+  text: "Teach me [topic] from beginner to advanced level in a step-by-step learning path.",
+  likes: 189
+},
+{
+  id: "prompt-32",
+  title: "Question Generator",
+  category: "Study",
+  description: "Practice with important questions.",
+  text: "Generate 20 important conceptual and numerical questions from [topic] with answers.",
+  likes: 174
+},
+{
+  id: "prompt-33",
+  title: "Exam-Oriented Summary",
+  category: "Exams",
+  description: "Focus only on exam-relevant concepts.",
+  text: "Summarize [topic] focusing only on concepts frequently asked in exams.",
+  likes: 196
+},
+{
+  id: "prompt-34",
+  title: "Story-Based Learning",
+  category: "Learning",
+  description: "Learn difficult concepts through stories.",
+  text: "Explain [topic] through an interesting story that makes it easy to remember.",
+  likes: 169
+},
+{
+  id: "prompt-35",
+  title: "Flashcard Creator",
+  category: "Study",
+  description: "Generate revision flashcards.",
+  text: "Create 25 flashcards for [topic] with questions on one side and answers on the other.",
+  likes: 158
+},
+{
+  id: "prompt-36",
+  title: "Mistake Finder",
+  category: "Education",
+  description: "Identify common misconceptions.",
+  text: "List the most common mistakes students make while learning [topic] and explain how to avoid them.",
+  likes: 177
+},
+{
+  id: "prompt-37",
+  title: "Concept Map Builder",
+  category: "Study",
+  description: "Create connections between concepts.",
+  text: "Generate a concept map for [topic] showing how all the subtopics are connected.",
+  likes: 148
+},
+{
+  id: "prompt-38",
+  title: "Formula Master",
+  category: "Exams",
+  description: "Master all formulas in one place.",
+  text: "List all formulas related to [topic], explain each variable, and provide one solved example.",
+  likes: 211
+},
+{
+  id: "prompt-39",
+  title: "Active Recall Quiz",
+  category: "Study",
+  description: "Test your understanding effectively.",
+  text: "Create an active recall quiz for [topic] with increasing difficulty and provide answers separately.",
+  likes: 173
+},
+{
+  id: "prompt-40",
+  title: "Teacher for One Day",
+  category: "Learning",
+  description: "Learn by teaching others.",
+  text: "Explain [topic] in a way that I can teach it to my classmates confidently in 10 minutes.",
+  likes: 187
+},
+
+   
 ];
 
 /* ---------------- WALLPAPERS (20) ----------------
