@@ -451,7 +451,7 @@ const aiTools = [
 ];
 
 
-/* ---------------- PROMPT LIBRARY (20) ---------------- */
+/* ---------------- PROMPT LIBRARY (40) ---------------- */
 const prompts = [
   {
     id: "prompt-1",
